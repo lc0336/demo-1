@@ -21,10 +21,4 @@ public class UserDao {
     	User list = userMapper.getById(id);
         return list;
     }
-    
-    
-    public User findAllUser3(String id) {
-    	User list = userMapper.getById(id);
-        return list;
-    }
 }
